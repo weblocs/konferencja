@@ -187,12 +187,12 @@ div, section, nav, footer, header {
 }
 
   :root {
-    --bio_hor: 20px;
+    --section-vert: 112px;
+--section-hor: 40px;
+--hero-h: 820px;
 --bio_space: 64px;
 --bio_vert: 80px;
---hero-h: 820px;
---section-hor: 40px;
---section-vert: 112px;
+--bio_hor: 20px;
 }
 @media(max-width: 1190px) {
 :root {
@@ -200,12 +200,12 @@ div, section, nav, footer, header {
 }
 }@media(max-width: 720px) {
 :root {
---bio_hor: 0px;
+--section-vert: 64px;
+--section-hor: 20px;
+--hero-h: 260px;
 --bio_space: 32px;
 --bio_vert: 0px;
---hero-h: 260px;
---section-hor: 20px;
---section-vert: 64px;
+--bio_hor: 0px;
 }
 }.bg-255-255-255 { background-color: rgb(255, 255, 255); }
   .h-hero-h { height: var(--hero-h); }
@@ -240,8 +240,8 @@ div, section, nav, footer, header {
   .h-120 { height: 120px; }
   .w-120 { width: 120px; }
   .bg-230-234-235 { background-color: rgb(230, 234, 235); }
-  .pt-25 { padding-top: 25px; }
-  .pb-25 { padding-bottom: 25px; }
+  .g-12 { gap: 12px; }
+  .mxw-600 { max-width: 600px; }
   .bg-0-120-128 { background-color: rgb(0, 120, 128); }
   .mxw-780 { max-width: 780px; }
   .mxw-124 { max-width: 124px; }
